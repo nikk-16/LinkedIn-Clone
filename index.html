@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,200,0,0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<title>Linkedin Clone</title>
+
+<script src="https://kit.fontawesome.com/3055f91a99.js"></script>
+
+<body>
+
+
+    <!-- header starts -->
+
+    <header id="header">
+        <nav class="navigateLeft">
+            <div class="header_left">
+                <a class="LinkedInHome" href="https://www.linkedin.com/" target="_blank">
+                    <img src="img/icons8-linkedin.svg" alt="">
+                </a>
+
+                <div class="header_search">
+                    <img src="img/find.png" alt="">
+                    <input class="search" type="text" placeholder="Search">
+                    <!-- <span id="search-icon" class="fas fa-search"></span> -->
+                </div>
+
+            </div>
+        </nav>
+        <nav class="" navigateRight>
+            <div class="header_right">
+                <div class="headerOption">
+                    <i class="material-icons-round headerOption__icon">
+                        home
+                    </i>
+                    <h4>Home</h4>
+
+                </div>
+                <div class="headerOption">
+                    <i class="material-icons-round headerOption__icon">
+                        people
+                    </i>
+                    <h4>My Network</h4>
+                </div>
+                <div class="headerOption">
+                    <i class="material-icons-round headerOption__icon">
+                        work
+                    </i>
+                    <h4>Jobs</h4>
+                </div>
+                <div class="headerOption">
+                    <i class="material-icons-round">
+                        mode_comment
+                    </i>
+                    <h4>Messaging</h4>
+                </div>
+                <div class="headerOption">
+                    <i class="material-icons-round">
+                        notifications
+                    </i>
+                    <h4>Notification</h4>
+                </div>
+                <div class="headerOption">
+                    <a href="#" target="_blank">
+                        <img src="img/user.jpg" alt="">
+                    </a>
+                    <h4>Me</h4>
+                </div>
+                <div class="vl">
+
+                </div>
+                <div class="headerOption">
+                    <i class="material-icons-round">
+                        menu
+                    </i>
+                    <h4>For Business</h4>
+                </div>
+                <div class="headerOption">
+                    <a href="#" target="_blank" class="premium">
+                        Try Premium for free</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- header ends -->
+
+
+
+
+
+
+
+    <!-- main body starts  -->
+
+    <main class="main_body">
+        <!-- sidebar starts  -->
+        <aside>
+            <div class="sidebar">
+                <div class="sidebar_top">
+                    <img src="img/bcg img 1.jpg" alt="" class="bcg">
+                    <img src="img/user.jpg" alt="" class="display">
+                    <h2>Nikhil Chaurasiya</h2>
+                    <h4>Technology Intern@Chubb</h4>
+                    <h4>nikhil.chaurasiya@chubb.com</h4>
+                </div>
+                <div class="sidebar_stats">
+                    <div class="sidebarStat">
+                        <p>Profile Viewers</p>
+                        <p class="num">536</p>
+                    </div>
+                    <div class="sidebarStat">
+                        <p>Post Impressions</p>
+                        <p class="num">4,766</p>
+                    </div>
+                </div>
+
+
+
+                <div class="sidebar_bottom">
+                    <p class="rec">Recent</p>
+                    <div class="sidebarRecentItem">
+                        <!-- <span class="sidebar_hash">#</span> -->
+                        <i class="material-icons-round icons">
+                            code
+                        </i>
+                        <p>FrontEnd Development</p>
+                    </div>
+                    <div class="sidebarRecentItem">
+                        <!-- <span class="sidebar_hash">#</span> -->
+                        <i class="material-icons-round icons">
+                            code
+                        </i>
+                        <p>Programming</p>
+                    </div>
+                    <div class="sidebarRecentItem">
+                        <!-- <span class="sidebar_hash">#</span> -->
+                        <i class="material-icons-round icons">
+                            group
+                        </i>
+                        <p>Machine Learning Community</p>
+                    </div>
+                    <div class="sidebarRecentItem">
+                        <!-- <span class="sidebar_hash">#</span> -->
+                        <i class="material-icons-round icons">
+                            code
+                        </i>
+                        <p>Angular Full Stack</p>
+                    </div>
+                    <div class="sidebarRecentItem">
+                        <!-- <span class="sidebar_hash">#</span> -->
+                        <i class="material-icons-round icons">
+                            cloud
+                        </i>
+                        <p>Cloud server</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- sidebar ends  -->
+
+
+
+
+        <!-- feed starts  -->
+
+        <section id="feed">
+            <div class="feed_input_container">
+                <div class="feed_input">
+                    <!-- <i class="material-icons-round icons">
+                        create
+                    </i> -->
+                    <img src="img/user.jpg" alt="" class="display">
+                    <p>
+                        <input class="text" type="text" placeholder="Write a post. . ." onclick="this.select()">
+                    </p>
+                </div>
+
+                <div class="feed_options">
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:#70b5f9; padding-right: 5px;">
+                            insert_photo
+                        </i>
+                        <h4>Photo</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:#e7763e; padding-right: 5px;">
+                            subscriptions
+                        </i>
+                        <h4>Video</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:#d6aa30; padding-right: 5px;">
+                            event_note
+                        </i>
+                        <h4>Event</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:#70b5f9; padding-right: 5px;">
+                            article
+                        </i>
+                        <h4>Write article</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- post starts  -->
+
+            <!-- 1st article  -->
+            <article class="post">
+                <div class="post_header">
+                    <img src="img/chubb.png" alt=""
+                        style="max-width: 50px; max-height: 50px;  margin: 5px; padding: 5px;">
+                    <div class="post_info">
+                        <h5>Chubb</h5>
+                        <p>754,951 followers</p>
+                        <p>10h ∙ 🌏</p>
+                    </div>
+                </div>
+                <div class="post_body">
+                    <p>Welcome to the 75 interns joining Chubb Business Services India – our biggest batch of interns
+                        yet! 🙌
+                        <br>
+                    <p>
+                        Through nine months of training, this group will get hands-on experience tackling real business
+                        projects.
+                        <br>
+                        <br>
+                        Learn more about opportunities with Chubb Business Services India: <a
+                            href="https://lnkd.in/esQyYe8j"><b>https://lnkd.in/esQyYe8j</a>
+                    </p>
+                    <img src="img/chubb post.jpeg" alt="" style="max-width: 36em;">
+                </div>
+                <hr>
+                <div class="input_options" style="display: flex;">
+                    <i class="material-icons-round icons" style="color:#70b5f9; padding: 2px; size: 10px;">
+                        thumb_up
+                    </i>
+                    <p class="likes">Nikhil Chaurasiya and 150 others</p>
+                    <p style="color:rgb(189, 187, 187); font-size: 10px; padding-top: 7px; padding-bottom:7px; align-content: right;"
+                        class="comments"> 20 comments ∙ 10 reposts</p>
+                </div>
+                <hr>
+                <div class="feed_input_options">
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            thumb_up
+                        </i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            forum
+                        </i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            repeat
+                        </i>
+                        <h4>Repost</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            send
+                        </i>
+                        <h4>Send</h4>
+                    </div>
+                </div>
+
+            </article>
+
+
+
+
+            <!-- 2nd </article> -->
+
+            <article class="post">
+                <div class="post_header">
+                    <img src="img/chubb.png" alt=""
+                        style="max-width: 50px; max-height: 50px;  margin: 5px; padding: 5px;">
+                    <div class="post_info">
+                        <h5>Chubb</h5>
+                        <p>754,951 followers</p>
+                        <p>10h ∙ 🌏</p>
+                    </div>
+                </div>
+                <div class="post_body">
+                    <p>Welcome to the 75 interns joining Chubb Business Services India – our biggest batch of interns
+                        yet! 🙌
+                        <br>
+                    <p>
+                        Through nine months of training, this group will get hands-on experience tackling real business
+                        projects.
+                        <br>
+                        <br>
+                        Learn more about opportunities with Chubb Business Services India: <a
+                            href="https://lnkd.in/esQyYe8j"><b>https://lnkd.in/esQyYe8j</a>
+                    </p>
+                    <img src="img/chubb post.jpeg" alt="" style="max-width: 36em;">
+                </div>
+                <hr>
+                <div class="input_options" style="display: flex;">
+                    <i class="material-icons-round icons" style="color:#70b5f9; padding: 2px; size: 10px;">
+                        thumb_up
+                    </i>
+                    <p class="likes">Nikhil Chaurasiya and 150 others</p>
+                    <p style="color:rgb(189, 187, 187); font-size: 10px; padding-top: 7px; padding-bottom:7px; align-content: right;"
+                        class="comments"> 20 comments ∙ 10 reposts</p>
+                </div>
+                <hr>
+                <div class="feed_input_options">
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            thumb_up
+                        </i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            forum
+                        </i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            repeat
+                        </i>
+                        <h4>Repost</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            send
+                        </i>
+                        <h4>Send</h4>
+                    </div>
+                </div>
+
+            </article>
+
+
+
+
+
+
+            <!-- 3rd article  -->
+
+
+            <article class="post">
+                <div class="post_header">
+                    <img src="img/chubb.png" alt=""
+                        style="max-width: 50px; max-height: 50px;  margin: 5px; padding: 5px;">
+                    <div class="post_info">
+                        <h5>Chubb</h5>
+                        <p>754,951 followers</p>
+                        <p>10h ∙ 🌏</p>
+                    </div>
+                </div>
+                <div class="post_body">
+                    <p>Welcome to the 75 interns joining Chubb Business Services India – our biggest batch of interns
+                        yet! 🙌
+                        <br>
+                    <p>
+                        Through nine months of training, this group will get hands-on experience tackling real business
+                        projects.
+                        <br>
+                        <br>
+                        Learn more about opportunities with Chubb Business Services India: <a
+                            href="https://lnkd.in/esQyYe8j"><b>https://lnkd.in/esQyYe8j</a>
+                    </p>
+                    <img src="img/chubb post.jpeg" alt="" style="max-width: 36em;">
+                </div>
+                <hr>
+                <div class="input_options" style="display: flex;">
+                    <i class="material-icons-round icons" style="color:#70b5f9; padding: 2px; size: 10px;">
+                        thumb_up
+                    </i>
+                    <p class="likes">Nikhil Chaurasiya and 150 others</p>
+                    <p style="color:rgb(189, 187, 187); font-size: 10px; padding-top: 7px; padding-bottom:7px; align-content: right;"
+                        class="comments"> 20 comments ∙ 10 reposts</p>
+                </div>
+                <hr>
+                <div class="feed_input_options">
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            thumb_up
+                        </i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            forum
+                        </i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            repeat
+                        </i>
+                        <h4>Repost</h4>
+                    </div>
+                    <div class="input_options">
+                        <i class="material-icons-round icons" style="color:gray; padding-right: 5px;">
+                            send
+                        </i>
+                        <h4>Send</h4>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- post ends  -->
+        </section>
+
+        <!-- feed ends  -->
+
+
+
+
+
+
+
+
+        <!-- widget starts  -->
+
+
+
+
+        <aside>
+            <div class="widgets">
+                <div class="head">
+                <div class="widget_header">
+                    <h2>LinkedIn UI Clone</h2>
+                    <i class="material-icons-round">
+                        info
+                    </i>
+                </div>
+
+                <div class="widget_articles">
+                    <div class="widget_articleLeft">
+                        <i class="material-icons-round">
+                            fiber_manual_record
+                        </i>
+                    </div>
+                    <div class="widget_articleRight">
+                        <h5>Coding LinkedIn UI Clone</h5>
+                        <p>Top News - 4500 readers</p>
+                    </div>
+                </div>
+                <div class="widget_articles">
+                    <div class="widget_articleLeft">
+                        <i class="material-icons-round">
+                            fiber_manual_record
+                        </i>
+                    </div>
+                    <div class="widget_articleRight">
+                        <h5>Coding LinkedIn UI Clone</h5>
+                        <p>Top News - 4500 readers</p>
+                    </div>
+                </div>
+                <div class="widget_articles">
+                    <div class="widget_articleLeft">
+                        <i class="material-icons-round">
+                            fiber_manual_record
+                        </i>
+                    </div>
+                    <div class="widget_articleRight">
+                        <h5>Coding LinkedIn UI Clone</h5>
+                        <p>Top News - 4500 readers</p>
+                    </div>
+                </div>
+                </div>
+
+
+
+
+                <div class="widget_bottom">
+                    <p class="ad">Ads 
+                        <i class="material-icons-round">
+                            more_horiz
+                        </i>
+                    </p>
+                    <p>Opportunities are knocking on your door</p>
+                    <div class="sidebarRecentItem">
+
+
+                        <div class="hiring" >
+                            <img src="img/user.jpg" alt="" class="display"
+                                style="">
+                            <img src="img/chubb.png" alt="" class="display" style="max-width: 50px;">
+
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <p>NIKHIL, <b>chubb</b> is hiring!</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+
+    </main>
+
+    <!-- main body ends  -->
+
+</body>
+
+</html>
